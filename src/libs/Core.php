@@ -7,9 +7,12 @@
 
 class Core
 {
+    /**
+     * You can override these defalt values in /src/config/config.php
+     */
     protected $url;
-    protected $currentController = "Pages";
-    protected $currentMethod = "index";
+    protected $currentController = DEFAULT_CONTROLLER;
+    protected $currentMethod = DEFAULT_METHOD;
     protected $params = [];
 
     public function __construct()
@@ -56,7 +59,7 @@ class Core
 
         if (isset($this->url[0])) {
             // Path to the controllers folder
-            $isTrue = file_exists("../src/controllers/" . ucwords($this->url[0]) . ".php");
+            $isTrue = file_exists("../src/controllers/" . ucwords($this->url[0]) . "Controller.php");
 
             // Set the controller if the file exist
             if ($isTrue) {
@@ -66,8 +69,8 @@ class Core
         }
 
         // Require the controller if the file exist and instantiate the controller
-        if (file_exists("../src/controllers/" . ucwords($this->currentController) . ".php")) {
-            require("../src/controllers/" . ucwords($this->currentController) . ".php");
+        if (file_exists("../src/controllers/" . ucwords($this->currentController) . "Controller.php")) {
+            require("../src/controllers/" . ucwords($this->currentController) . "Controller.php");
             $this->currentController = new $this->currentController;
         }
     }

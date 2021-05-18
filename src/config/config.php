@@ -15,3 +15,7 @@ define('HOST', 'localhost');
 define('USERNAME', 'root');
 define('PASSWORD', '');
 define('DBNAME', 'clinic_db');
+
+
+define("DEFAULT_CONTROLLER", "Pages");
+define("DEFAULT_METHOD", "index");
