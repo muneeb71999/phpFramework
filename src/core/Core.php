@@ -11,8 +11,8 @@ class Core
      * You can override these defalt values in /src/config/config.php
      */
     protected $url;
-    protected $currentController = DEFAULT_CONTROLLER;
-    protected $currentMethod = DEFAULT_METHOD;
+    protected $currentController = "Pages";
+    protected $currentMethod = "index";
     protected $params = [];
 
     public function __construct()
@@ -60,6 +60,8 @@ class Core
         if (isset($this->url[0])) {
             // Path to the controllers folder
             $isTrue = file_exists("../src/controllers/" . ucwords($this->url[0]) . "Controller.php");
+
+            echo $isTrue;
 
             // Set the controller if the file exist
             if ($isTrue) {
