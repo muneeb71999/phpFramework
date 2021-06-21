@@ -10,7 +10,9 @@
     ],
     "minimum-stability": "beta",
     "require": {
-        "vlucas/phpdotenv": "^5.3"
+        "vlucas/phpdotenv": "^5.3",
+        "illuminate/database": "^8.47",
+        "illuminate/events": "^8.47"
     },
     "autoload": {
         "classmap": [

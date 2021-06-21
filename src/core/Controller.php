@@ -5,12 +5,13 @@
  * Controller
  */
 
+
 class Controller
 {
     public function model($model)
     {
 
-        // Require the model 
+        // Require the model
         require_once("../src/models/$model.php");
 
         // Instantiate the new model
