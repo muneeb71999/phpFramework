@@ -1,0 +1,22 @@
+{
+    "name": "mg/php-framework",
+    "description": "Simple Light weight framework for building simple applications",
+    "license": "GPT",
+    "authors": [
+        {
+            "name": "muneeb71999",
+            "email": "muneebakram71999@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/core",
+            "src/controllers",
+            "src/models"
+        ]
+    }
+}
