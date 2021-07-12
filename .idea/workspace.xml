@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4ff91d-60d0-458c-91cb-2a2701a5e0ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phpFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpFramework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/connector.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/PagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Core.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +21,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +68,8 @@
       <path value="$PROJECT_DIR$/vendor/illuminate/pipeline" />
       <path value="$PROJECT_DIR$/vendor/illuminate/bus" />
       <path value="$PROJECT_DIR$/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/vendor/josegonzalez/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/m1/env" />
     </include_path>
   </component>
   <component name="ProjectId" id="1t4JO7K75xsfUPvZF5Zz8aQF3Zv" />
@@ -97,7 +101,9 @@
       <workItem from="1624110193195" duration="1132000" />
       <workItem from="1624159090761" duration="2245000" />
       <workItem from="1624253311352" duration="2915000" />
-      <workItem from="1624256285239" duration="920000" />
+      <workItem from="1624256285239" duration="1794000" />
+      <workItem from="1625113865937" duration="1218000" />
+      <workItem from="1625118022014" duration="2733000" />
     </task>
     <servers />
   </component>

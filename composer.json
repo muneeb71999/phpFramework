@@ -12,7 +12,8 @@
     "require": {
         "vlucas/phpdotenv": "^5.3",
         "illuminate/database": "^8.47",
-        "illuminate/events": "^8.47"
+        "illuminate/events": "^8.47",
+        "josegonzalez/dotenv": "dev-master"
     },
     "autoload": {
         "classmap": [

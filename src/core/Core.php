@@ -17,7 +17,6 @@ class Core
 
     public function __construct()
     {
-
         // Gets the url and parse it
         $this->url = $this->getURL();
 
@@ -61,11 +60,9 @@ class Core
             // Path to the controllers folder
             $isTrue = file_exists("../src/controllers/" . ucwords($this->url[0]) . "Controller.php");
 
-            echo $isTrue;
-
             // Set the controller if the file exist
             if ($isTrue) {
-                $this->currentController = $this->url[0];
+                $this->currentController = $this->url[0] ;
                 unset($this->url[0]);
             }
         }
@@ -73,6 +70,7 @@ class Core
         // Require the controller if the file exist and instantiate the controller
         if (file_exists("../src/controllers/" . ucwords($this->currentController) . "Controller.php")) {
             require("../src/controllers/" . ucwords($this->currentController) . "Controller.php");
+            $this->currentController =  $this->currentController . "Controller";
             $this->currentController = new $this->currentController;
         }
     }

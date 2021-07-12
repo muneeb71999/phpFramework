@@ -34,6 +34,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/pipeline" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/bus" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/events" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/josegonzalez/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/m1/env" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
